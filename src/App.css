@@ -6,13 +6,31 @@
   height: 40vmin;
   pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ionicBar{
+  --background:#319a35;
+  color: whitesmoke;
 }
-
+.mt{
+    margin-top: 18px;
+}
+.mt-2{
+    margin-top: 10px;
+}
+.card{
+    border: 1px solid #319a35;
+}
+.failed{
+    border: 1px solid #b00000;
+}
+.ml-0{
+    margin-left: 0;
+}
+.mr-0{
+    margin-right: 0;
+}
+.btnSubmit{
+    --background: #319a35;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
